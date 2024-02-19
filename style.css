@@ -29,11 +29,12 @@ button {
 .matrix-container .matrix-link {
   font-family: fantasy, cursive;
 }
+@media (max-width: 768px) {
+  .matrix-container {
+    text-align: center;
+  }
+}
 
-@media (max-width:768px) {
-.matrix-container { text-align: center;
-}
-}
 .tasks-container {
   display: block;
   width: 500px;
