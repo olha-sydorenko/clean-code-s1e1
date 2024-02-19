@@ -16,7 +16,6 @@ input,
 button {
   outline: none;
 }
-
 .matrix-container {
   width: 500px;
   margin: 0 auto;
@@ -34,7 +33,6 @@ button {
     text-align: center;
   }
 }
-
 .tasks-container {
   display: block;
   width: 500px;
@@ -48,7 +46,6 @@ button {
 .new-task-wrapper {
   display: flex;
 }
-
 .button {
   background: none;
   border: 0px;
@@ -61,6 +58,7 @@ button {
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .task-title {
   color: #333;
@@ -101,7 +99,6 @@ button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -109,7 +106,6 @@ button {
 .task-item > * {
   vertical-align: middle;
 }
-
 .checkbox {
   margin: 0 10px;
 }
@@ -141,12 +137,10 @@ button {
 .task-item .input {
   display: none;
 }
-
 .edit-mode .input {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode .label {
   display: none;
 }
