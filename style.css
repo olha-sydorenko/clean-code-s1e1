@@ -139,14 +139,14 @@ button {
 
 /* Edit Task */
 .task-item .input {
-  display:none
+  display: none
 }
 
 .edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
