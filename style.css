@@ -45,6 +45,7 @@ button {
 }
 .new-task-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 .button {
   background: none;
@@ -86,10 +87,7 @@ button {
 }
 
 /* New Task */
-.new-label {
-  display: block;
-  margin: 0 0 20px;
-}
+
 #new-task {
   width: 318px;
 }
